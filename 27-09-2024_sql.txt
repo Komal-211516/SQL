@@ -317,6 +317,25 @@ output:  DEPT_ID DEPT_NAME               DEPT_ID
 ---------- -------------------- ----------
         11 Human Resource
 
+query: select the distinct department from employees table
+sql>
+	
+	select  distinct dept_id  from employees_23k ;
+
+output:  DEPT_ID
+----------
+         1
+         6
+         2
+         4
+         5
+         8
+         3
+         7
+         9
+        10
+
+10 rows selected.
 
 
 
